@@ -15,7 +15,7 @@
 
 .box {
     display: flex;
-    align-items: center;
+   
 }
 
 ul,
@@ -36,6 +36,10 @@ a {
 nav {
     background: #FAE3B6;
     padding: 47px 0px;
+}
+nav .box{
+    align-items: center;
+   
 }
 
 .logo-part {
@@ -100,4 +104,50 @@ nav {
 
 /* =======================
    Navber css end
+======================== */
+/* =======================
+   Banner css start
+======================== */
+.banner{
+    background: #FAE3B6;
+    padding-top: 117px;
+    padding-bottom: 102px;
+}
+
+.banner-content{
+    width: 50%;
+    
+}
+.banner-image{
+    width: 50%;
+    
+}
+.banner h1{
+    font-size: 64px;
+    font-weight: 600;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    width: 538px;
+}
+.banner p{
+    font-size: 22px;
+    font-weight: 400;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    padding-top: 38px;
+    padding-bottom: 76px;
+     width: 531px;
+}
+.banner a{
+    background: #000;
+    color: white;
+    padding:25px 91px;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+/* =======================
+   Banner css end
 ======================== */
