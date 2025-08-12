@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* =======================
+   common css start
+======================== */
+.container {
+    width: 1290px;
+    margin: 0 auto;
+
+}
+
+.box {
+    display: flex;
+    align-items: center;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* =======================
+   common css end
+======================== */
+/* =======================
+   Navber css start
+======================== */
+nav {
+    background: #FAE3B6;
+    padding: 47px 0px;
+}
+
+.logo-part {
+    width: 22%;
+
+}
+
+.menu-part {
+    width: 50%;
+
+}
+
+.menu-part ul {
+    display: flex;
+    column-gap: 59px;
+    cursor: pointer;
+
+
+}
+
+.menu-part ul li {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+.button-part {
+    width: 28%;
+    text-align: right;
+
+}
+
+.button-part a {
+    background: #FDBB57;
+    padding: 10px 15px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #050505;
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px;
+    display: inline-block;
+    border: 1px solid transparent;
+    transition: .4s;
+
+}
+
+.button-part a:first-child {
+    margin-right: 5px;
+}
+
+.button-part a:hover {
+    background: #FAE3B6;
+    border-color: rgba(0, 0, 0, 0.10);
+    box-shadow: 1px 8px 9px -4px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 1px 8px 9px -4px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 1px 8px 9px -4px rgba(0, 0, 0, 0.15);
+
+}
+
+/* =======================
+   Navber css end
+======================== */
