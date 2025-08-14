@@ -147,7 +147,85 @@ nav .box{
     font-size: 24px;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
+     border: 1px solid transparent;
+     transition: .4s;
+}
+.banner a:hover{
+      background: transparent;
+      border-color: black;
+      color: black;
+     
+
 }
 /* =======================
    Banner css end
+======================== */
+/* =======================
+   collection css start
+======================== */
+.collection{
+    margin-top: 217px;
+    margin-bottom: 188px;
+}
+.collection h2{
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+    color: #000;
+    font-family: "Frank Ruhl Libre", serif;
+
+
+
+}
+.collection .box{
+    justify-content: space-between;
+    padding-top: 108px;
+   
+    
+}
+
+.collection .item{
+    width: 349px;
+    height: 402px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.collection .item img{
+    width: 100%;
+    height: 100%;
+}
+.collection .overly{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    border-radius: 20px;
+    transition: .4s;
+   
+}
+.collection .item:hover .overly{
+    top: 0;
+    
+
+}
+.collection .item .overly a {
+    background: white;
+    padding: 9px 108px;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    top: 283px;
+    left: 16px;
+}
+
+
+ 
+/* =======================
+   collection css end
 ======================== */
