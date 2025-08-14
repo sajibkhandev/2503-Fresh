@@ -229,3 +229,43 @@ nav .box{
 /* =======================
    collection css end
 ======================== */
+/* =======================
+   fashion css start
+======================== */
+.fashion .left{
+    width: 50%;
+   
+}
+.fashion .left img{
+    width: 110%;
+}
+.fashion .right{
+    width: 50%;
+    padding-left: 100px;
+  
+}
+.fashion .box{
+    align-items: center;
+}
+.fashion .right h2{
+   font-size: 64px;
+   font-weight: 700;
+   color: #000;
+   font-family: "Frank Ruhl Libre", serif;
+   width: 437px;
+   padding-bottom: 63px;
+
+  
+}
+.fashion .right p{
+   font-size: 24px;
+   font-weight: 600;
+   color: #000;
+   font-family: "Poppins", sans-serif;
+   width: 443px;
+
+  
+}
+/* =======================
+   fashion css end
+======================== */
