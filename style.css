@@ -242,6 +242,7 @@ nav .box{
 .fashion .right{
     width: 50%;
     padding-left: 100px;
+    position: relative;
   
 }
 .fashion .box{
@@ -266,6 +267,43 @@ nav .box{
 
   
 }
+.fashion .fashion-content {
+    width: 793px;
+  padding: 72px 0px;
+    background: #FEECC8;
+    position: absolute;
+    top: 444px;
+    left: -112px;
+    border-radius: 20px;
+    z-index: -1;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fashion .fashion-content h3{
+    font-size: 64px;
+   font-weight: 700;
+   color: #000;
+  font-family: "Podkova", serif;
+
+}
+.fashion .fashion-content p{
+    font-size: 24px;
+   font-weight: 500;
+   color: #000;
+   font-family: "Poppins", sans-serif;
+
+}
+.fashion .fashion-content .sajib{
+    width: 22%;
+    border-right: 1px solid black;
+}
+
+.fashion .fashion-content .sajib:last-child{
+    border-right: 0px;
+}
+
+
+
 /* =======================
    fashion css end
 ======================== */
